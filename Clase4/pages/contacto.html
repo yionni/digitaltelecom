@@ -1,0 +1,90 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../pages/css/estilos.css">
+        <title> AC/DC - Contacto </title>
+    </head>
+    <body>
+        
+        <header>
+    <!--Enlaces relativos y enlaces absolutos -->
+    <!--Enlaces relativos: Nos llevan hacia algun enlace que esta dentro de nuestro proyecto -->
+    <!--Enlaces absolutos: Nos llevan algun enlace externo de nuestro proyecto -->
+            <nav>
+                <a href="../index.html"> Inicio </a>
+                <a href="contacto.html"> Contacto </a>
+                <a href="nosotros.html"> Nosotros </a>
+                <a href="http://www.google.com.ar" target="_blank">Ir a Google </a>
+            </nav>
+        </header>
+        
+        <h1>Contacto</h1>
+
+        <!--Formularios -->
+
+    <fieldset>
+
+        <legend>Formulario de contactos</legend>
+        
+        <form action="#" method="post">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="ingrese su email" required>
+            </div>
+            <div>
+                <label for="password">Contraseña;</label>
+                <input type="password" name="password" id="password" placeholder="ingrese contraseña">
+            </div>
+            <div>
+                <label for="numero">Numero de celular:</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>Marque su rango de edad</label>
+                <input type="radio" value="option1" name="option">
+                <label for="radio1">opcion 1: 18 a 25años</label>
+                <input type="radio" value="option2" name="option">
+                <label for="radio2">opcion 2: 26 a 32años</label>
+                <input type="radio" value="option3" name="option">
+                <label for="radio3">opcion 3: 33 a 37años</label>
+            </div>
+            <div>
+                <label>Ganar en dolares</label>
+                <input type="checkbox">
+                <label for="option1">Si</label>
+                <input type="checkbox">
+                <label for="option2">No</label>
+                <input type="checkbox">
+                <label for="option3">Lo pensare</label>
+
+            </div>
+            <div>
+                <label for="dropwon">Elegi tu aqui</label>
+                <select>
+                    <option value="opcion1">Samsung</option>
+                    <option value="opcion2">Motorola</option>
+                    <option value="opcion3">Nokia 1100</option>
+                </select>
+            </div>
+            <div>
+                <label for="file">Adjuntar archivos</label>
+                <input type="file">
+            </div>
+            <div>
+                <label for="textarea">Escribir comentario</label>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="reset">Resetear</button>
+                <button type="submit">Enviar</button>
+
+            </div>
+        </form>
+
+    </fieldset>
+
+
+    </body>
+    </html>

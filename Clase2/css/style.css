@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    /*Propiedad color */
+    background-color: cadetblue;
+    color: aliceblue;
+}
+.div-container{
+    background-color: chocolate;
+    /* height: 900px; */
+    width: 100%;
+}
+.div-hijo{
+    background-color: deeppink;
+    padding: 5px;
+    /*height: 200px;*/
+    margin: 10px;
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Monserrat,' sans-serif;
+
+}
+
+img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div-container > .div-hijo{
+    color: black;
+    font-size: larger;
+}
