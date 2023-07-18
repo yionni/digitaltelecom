@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-proporties{
+    height: 300px;
+    width: 100%;
+    background-color: #f1f1f1;
+    background-image: url("../media/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: #f1f1f1;
+}
+.border-proporties{
+    border: 2px solid #080808;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.border-proporties:hover{
+    color:aliceblue;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-shadow-proporties{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+}
+.box-shadow-proporties:hover{
+    box-shadow: 0px 0px 10px rgb(11, 12, 13);
+    background-color: rgb(0, 0, 0);
+    color: #f1f1f1;
+}
+.test-shadow-proporties{
+    text-shadow: 2px 2px 4px #eb4040;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+    transition: text-shadow 0.5s, filter 0.5s;
+    animation: hover-animation 2s infinite;
+}
+.test-shadow-proporties:hover{
+    text-shadow: 4px 4px 8px #000000;
+    filter: blur(2px);
+}
+
+@keyframes hover-animation {
+    0%{
+        text-shadow: 2px 2px 4px #eb4040;
+        filter: blur(0px);
+    }
+    50%{
+        text-shadow: 2px 2px 8px  #000000;
+        filter: blur(0px);
+    }
+    100%{
+        text-shadow: 2px 2px 4px #eb4040;
+        filter: blur(0px);
+    }
+}
